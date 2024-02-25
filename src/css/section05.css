@@ -1,0 +1,38 @@
+#section05 {
+  position: relative;
+  background-color: rgb(255, 249, 231);
+  width: 100%;
+  background-image: url('../../image/section05.png');
+  background-size: auto 630px;
+  background-repeat: no-repeat;
+  background-position: calc(48% - 265px) 101px;
+  height: 870px;
+}
+
+#section05 .section05_container {
+  padding-left: 50vw;
+  padding-right: 40px;
+  padding-top: 326px;
+  height: 864.95px;
+  max-width: 1040px;
+  margin: 0px auto;
+
+}
+
+#section05 .section05_container h1 {
+  font-family: var(--font-Bold);
+  font-size: 51px;
+  line-height: 1.25;
+  letter-spacing: 1.5px;
+  margin-bottom: -5px;
+  margin-top: 0px;
+  color: rgb(25, 31, 40);
+}
+
+#section05 .section05_container p {
+  font-family: var(--font-Medium);
+  font-size: 20px;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: rgb(139, 149, 161);
+}

@@ -1,0 +1,70 @@
+#section08 {
+  position: relative;
+    width: 100%;
+    background-image: url('../../image/section08.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: rgb(14, 16, 17);
+    height: 620px;
+}
+
+#section08 .section08_container {
+  max-width: 1040px;
+  padding-top: 148px;
+  padding-left: 40px;
+  margin: 0px auto;
+}
+
+#section08 .section08_container h1 {
+  font-family: var(--font-Bold);
+  font-size: 48px;
+  line-height: 1.31;
+  margin-bottom: 16px;
+  color: rgb(255, 255, 255);
+}
+
+#section08 .section08_container p {
+  font-family: var(--font-Medium);
+  font-size: 20px;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: rgb(139, 149, 161);
+}
+
+#section08 .section08_container .section08--incruteButton {
+  width: 123.39px;
+  height: 40px;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  cursor: pointer;
+  background-color: #3182f6;
+  color:#FFFFFF;
+  text-decoration: none;
+  border-radius: 7px;
+  transition: background .2s ease,color .1s ease;
+}
+
+#section08 .section08_container .section08--incruteButton:hover {
+  background-color: #1E6FD9;
+}
+
+#section08 .section08_container a {
+  font-family: 'Pretendard-Regular';
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+  color:#FFFFFF;
+  text-decoration: none;
+}
+
+#section .section08_container a:hover {
+  color: #4e5968;
+  background-color: #4f31f6;
+}

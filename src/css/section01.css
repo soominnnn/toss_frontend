@@ -1,0 +1,39 @@
+#section01 {
+  height: 57vw;
+  padding: 0px 40px;
+  min-height: 824px !important;
+  background-image: url('../../image/section01_background.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+#section01 .item_container {
+    padding: 21vh 0px;
+    max-width: 1040px;
+    margin: 0px auto;
+}
+
+#section01 .item_container h1 {
+    font-family: var(--font-Bold);
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    margin-bottom: 16px;
+    color: rgb(25, 31, 40);
+}
+
+#section01 .item_container a {
+  background-color: transparent;
+  color: inherit;
+  text-decoration: none;
+}
+
+#section01 .item_container img {
+  display: inline-block;
+  width: 154px;
+  height: 53px;
+  margin-right: 7px;
+  padding: 0px;
+}

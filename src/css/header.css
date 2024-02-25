@@ -1,0 +1,66 @@
+header {
+  width: 100vw;
+  height: 60px;
+  background-color: transparent;
+  z-index: 999;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  transition: background-color 0.25s ease-in-out 0s;
+}
+
+header.scrolled {
+  background-color: white;
+}
+
+header .header_container {
+  position: relative;
+  width: 100vw;
+  max-width: 1080px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 12px 18px;
+  box-sizing: border-box;
+}
+
+header .header_container .toss_icon {
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+  margin-left: -8px;
+  float: left;
+  margin-top: -5px;
+}
+
+header .header_container nav {
+  text-align: right;
+  box-sizing: border-box;
+  margin-top: -18px;
+}
+
+header .header_container nav a {
+  display: inline-block;
+  height: 40px;
+  margin-top: 11px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  color: rgb(78, 89, 104);
+  vertical-align: top;
+  text-decoration: none;
+  font-family: var(--font-Medium);
+  font-size: 17px;
+}
+
+header .header_container nav a:hover{
+  background-color: #F0F1F2;
+  border-radius: 10px;
+}
+
+header .header_container .toss_icon img {
+  height: 28px;
+}
+

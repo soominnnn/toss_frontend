@@ -1,0 +1,39 @@
+#section03 {
+  position: relative;
+  background-color: rgb(246, 247, 250);
+  width: 100%;
+  background-image: url('../../image/section03.png');
+  background-size: auto 410px;
+  background-position: 50% 384px;
+  background-repeat: no-repeat;
+  height: 870px;
+  letter-spacing: normal;
+}
+
+#section03 .section03_container {
+  padding: 130px 0px;
+  max-width: 1040px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#section03 .section03_container h1 {
+  font-family: 'Pretendard-Bold';
+  font-size: 50px;
+  line-height: 1.28;
+  letter-spacing: 1.5px;
+  margin-bottom: -6px;
+  margin-top: 0px;
+  color: rgb(25, 31, 40);
+}
+
+#section03 .section03_container p {
+  font-family: 'Pretendard-Medium';
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.58;
+  letter-spacing: normal;
+  color: rgb(139, 149, 161);
+}
