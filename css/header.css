@@ -53,7 +53,7 @@ header .header_container nav a {
   text-decoration: none;
   font-family: var(--font-Medium);
   font-size: 17px;
-  transition: 0.2sec ease;
+  transition: 0.2s ease;
 }
 
 header .header_container nav a:hover{
